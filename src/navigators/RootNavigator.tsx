@@ -1,21 +1,20 @@
-import React, { useCallback, useEffect, useState } from 'react'
-import { createStackNavigator } from '@react-navigation/stack'
-import { RootStackParamList } from './RootStackParamList '
+import React, { useEffect } from 'react';
+import { createStackNavigator } from '@react-navigation/stack';
+import { RootStackParamList } from './RootStackParamList ';
+import DrawerTabNavigator from './DrawerTabNavigator';
 
-const { Navigator, Screen } = createStackNavigator<RootStackParamList>()
+const { Navigator, Screen } = createStackNavigator<RootStackParamList>();
 
 export default function RootNavigator() {
-	const [initialRouteName, setInitialRouteName] = useState<keyof RootStackParamList>()
 	useEffect(() => {
-	}, [])
+	}, []);
 
-	return initialRouteName ? (
+	return (
 		<Navigator
 			screenOptions={{ headerShown: false, gestureEnabled: false }}
-			initialRouteName={initialRouteName}
+			initialRouteName={'DRAWER'}
 		>
-			{/* <Screen name="Welcome" component={Screens.WelcomeScreen} /> */}
-
+			<Screen name="DRAWER" component={DrawerTabNavigator} />
 		</Navigator>
-	) : null
+	);
 }

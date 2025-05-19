@@ -1,3 +1,3 @@
 export type RootStackParamList = {
-	LOGIN: undefined,
+	DRAWER: undefined,
 }

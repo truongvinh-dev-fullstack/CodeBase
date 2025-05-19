@@ -1,0 +1,75 @@
+{
+	"common": {
+		"ok": "OK!",
+		"cancel": "Hủy",
+		"back": "Quay lại",
+		"confirm": "Xác nhận"
+	},
+	"bottomMenuBar": {
+		"dashboard": "Dashboard",
+		"approve": "Phê duyệt",
+		"report": "Báo cáo",
+		"noti": "Thông báo"
+	},
+	"auth": {
+		"login": "Đăng nhập",
+		"phone_input": "Nhập số điện thoại",
+		"pw_input": "Nhập mật khẩu",
+		"fogot_pw": "Quên mật khẩu"
+	},
+	"home": {
+		"dashboard": "Dashboard",
+		"works": "Công việc",
+		"employee_on_leave": "Nhân viên nghỉ phép trong ngày",
+		"dashboard_title": "Doanh thu, chi phí & lợi nhuận",
+		"birthday_list": "Sinh nhật trong tuần",
+		"work_list": "Công việc trong ngày",
+		"appointment_list": "Lịch hẹn",
+		"checkin_list": "Checkin"
+	},
+	"fab": {
+		"create_potential": "Tạo tiềm năng",
+		"create_customer": "Tạo khách hàng",
+		"create_price": "Tạo báo giá",
+		"create_contract": "Tạo hợp đồng",
+		"create_order": "Tạo đơn hàng",
+		"create_work": "Tạo công việc",
+		"create_appointment_schedule": "Tạo lịch hẹn",
+		"create_checkin": "Checkin"
+	},
+	"checkin": {
+		"tagert": "Đối tượng",
+		"customer": "Khách hàng",
+		"guest": "Tiềm năng",
+		"shot": "Chụp ảnh",
+		"checkin": "Checkin",
+		"location": "Vị trí",
+		"accuracy": "Chính xác đến",
+		"current_time": "Thời gian"
+	},
+	"priceReport": {
+		"title": "Báo giá",
+		"dashboard": "Dashboard",
+		"list": "Danh sách",
+		"send": "Gửi phê duyệt",
+		"duplicate": "Nhân bản",
+		"delete": "Xóa",
+		"report_info": "Thông tin báo giá",
+		"payment_method": "Phương thức thanh toán",
+		"line_chart_title": "Doanh thu theo báo giá"
+	},
+	"priceTab": {
+		"customer_info": "Thông tin khách hàng",
+		"price_report_info": "Thông tin báo giá",
+		"product_info": "Thông tin hàng hoá",
+		"fee_info": "Thông tin chi phí",
+		"price_report_synthetic": "Tổng hợp báo giá",
+		"history_approved": "Lịch sử phê duyệt",
+		"delivery_plan": "Kế hoạch giao hàng",
+		"terms_of_payment": "Điều khoản thanh toán",
+		"attachments": "Tài liệu đính kèm",
+		"additional_information": "Thông tin bổ sung",
+		"list_works": "Danh sách công việc",
+		"time_line": "Dòng thời gian"
+	}
+}
