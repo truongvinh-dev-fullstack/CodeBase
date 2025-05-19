@@ -7,7 +7,7 @@ import { DarkTheme, DefaultTheme, NavigationContainer } from '@react-navigation/
 import RootNavigator from './src/navigators/RootNavigator';
 import Toast, { BaseToast, BaseToastProps, ErrorToast } from 'react-native-toast-message';
 import { ToastConfig } from 'react-native-toast-message';
-import { I18nextProvider } from 'react-i18next'
+import { I18nextProvider } from 'react-i18next';
 import i18n from './src/constants/i18n/i18n';
 
 function App(): React.JSX.Element {

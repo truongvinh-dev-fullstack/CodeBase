@@ -5,9 +5,6 @@ export const StorageKey = {
 };
 export class AsyncStorageService {
 	clearStore = async () => {
-		// await Promise.all(Object.keys(StoreKey).map(key => {
-		//     removeItem(key);
-		// }))
 		AsyncStorage.clear();
 	};
 	getToken = async () => {
@@ -32,12 +29,11 @@ export class AsyncStorageService {
 	logout = async () => {
 		await AsyncStorage.clear();
 		// await AsyncStorage.removeItem(StorageKey.USER_ID)
-		// await AsyncStorage.removeItem(StorageKey.TOKEN)
 	};
 	setItem = async (key: string, val: any) => {
 		try {
-			await AsyncStorage.removeItem(key)
-			await AsyncStorage.setItem(key, JSON.stringify(val))
+			await AsyncStorage.removeItem(key);
+			await AsyncStorage.setItem(key, JSON.stringify(val));
 		} catch (error) { }
 	};
 	setItemNumber = async ({ key, val }: { key: string; val: any }) => {

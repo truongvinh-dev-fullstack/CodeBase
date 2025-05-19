@@ -7,13 +7,15 @@ import { BottomTabParamList } from '../navigators/BottomTabParamList';
 
 type Props = NativeStackScreenProps<BottomTabParamList, 'SCREEN2'>;
 
-export const SCREEN2: React.FC<Props> = () => {
+const SCREEN2: React.FC<Props> = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Đây là màn hình screen 2</Text>
     </View>
   );
 };
+
+export default SCREEN2;
 
 const styles = StyleSheet.create({
   container: {

@@ -19,30 +19,17 @@ export const CustomDrawerContent = () => {
 	}, [isFocus]);
 
 	const createDrawerData = async () => {
-		// let _drawerData : IDrawerItem[] = [
-		// 	{
-		// 		label: 'Drawer 1',
-		// 		id: 1,
-		// 		icon: <DashboardIcon />,
-		// 		childs: [
-		// 			{
-		// 				label: 'Screen 1',
-		// 				id: 1.2,
-		// 				routerName: ProjectName.DASH_BOARD_PROJECT_MANGAGEMENT,
-		// 				icon: <OpportunityMenuIcon />,
-		// 				isShow: true
-		// 			},
-		// 			{
-		// 				label: 'Danh sách công trình',
-		// 				id: 1.4,
-		// 				routerName: ProjectName.PROJECT_LIST,
-		// 				icon: <LenhDieuDongSVG />,
-		// 				isShow: true
-		// 			},
-		// 		],
-		// 	},
-		// ]
-		// setDrawerData(_drawerData);
+		let _drawerData : IDrawerItem[] = [
+			{
+				label: 'Drawer 1',
+				id: 1,
+				icon: null,
+				routerName: 'SCREEN1',
+				childs: [
+				],
+			},
+		];
+		setDrawerData(_drawerData);
 	};
 
 	const renderItem: ListRenderItem<any> = useCallback(({ item, index }) => {
